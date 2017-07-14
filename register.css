@@ -1,0 +1,98 @@
+﻿/** {*/
+	/*font-family: 'cwTeXFangSong', 'Caudex';*/
+	/*text-decoration: none;*/
+
+
+/*--------登入彈出式窗--------------*/
+.login-logo{
+	text-align: center;
+	margin: 150px auto 10px auto;
+}
+.form-group {
+	text-align: center;
+	margin: 10px 0 0 62px;
+}
+#name{
+	width: 300px;
+	font-size: 24px; 	
+  	background: #E6E6E6 url('images/iconpeople.png') no-repeat 3px 3px;
+  	padding: 3px 3px 3px 30px;
+}
+#email{
+	width: 300px;
+	font-size: 24px; 	
+  	background: #E6E6E6 url('images/iconemail.png') no-repeat 3px 3px;
+  	padding: 3px 3px 3px 30px;
+}
+#password{
+	width: 300px;
+	font-size: 24px; 	
+  	background: #E6E6E6 url('images/iconpassword.png') no-repeat 3px 3px;
+  	padding: 3px 3px 3px 30px;
+}
+#passwordcheck{
+	width: 300px;
+	font-size: 24px; 	
+  	background: #E6E6E6 url('images/iconpasswordcheck.png') no-repeat 3px 3px;
+  	padding: 3px 3px 3px 30px;
+}
+
+.login .btn-warning{
+	width: 300px;
+	margin: 10px 0 0 62px;
+	font-size: 24px;
+}
+.forget{
+	text-align: center;
+}
+.forget a{
+	font-size: 18px;
+	text-decoration: none;
+}
+.form-group .btn-link:hover{
+	text-decoration: none;
+	opacity: 0.8;
+}
+
+.signin {
+	text-align: center;
+	margin-top: 50px;
+}
+.signin .btn-info{
+	width: 100px;
+}
+
+/*--------------註冊彈出視窗---------------*/
+.letter-register{
+	text-align: center;
+	margin-bottom:90px;
+	color: #C0A264;
+	font-size: 32px;
+}
+
+/*---------------查詢密碼頁---------------*/
+.check-word{
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 30px;
+	color: #C0A264;
+	font-size: 32px;
+}
+#check-password{
+	width: 300px;
+	font-size: 18px; 	
+  	padding: 3px 3px 3px 30px;
+}
+.click-div{
+	margin-top: 50px;
+	text-align: center;
+}
+.click-ul{
+	padding-left: 0;
+}
+.click-a{
+	margin-right: 10px;
+}
+.click-b{
+	margin-left: 10px;
+}

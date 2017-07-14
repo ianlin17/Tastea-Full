@@ -1,0 +1,453 @@
+﻿
+* {
+	font-family: 'cwTeXFangSong', 'Caudex';
+	text-decoration: none;
+	list-style-type: none;
+}
+h3 {
+	text-align: center;
+}
+ul,li{
+	display: inline-block;
+	list-style-type: none;
+	text-decoration: none;
+}
+a {
+	color: #1C1C1C;
+	font-size: 100%;
+}
+a:hover ,a:focus{
+	color: rgba(28,28,28,0.7);
+	text-decoration: none;
+
+}
+
+.nav .hover_line a{
+	outline: none;
+
+	}
+
+
+.nav > li > a:hover, .nav > li > a:focus{
+	background-color: transparent;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus{
+	background-color: transparent;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
+	background-color: transparent;
+}
+.navbar-nav .open .dropdown-menu > li > a{
+	color: #FCFAF2;
+}
+.navbar .navbar-collapse, .navbar-default .navbar-form{
+	height: 350px;
+	text-align: right;
+	overflow-y:hidden;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+	background-color: transparent;
+}
+.navbar-right{
+	margin-top: 20px;
+}
+.navbar-right .dropdown-menu{
+	left: 0;
+}
+.navbar{
+	width: 100%;
+	height: 10%;
+	margin: 0;
+	padding: 0;
+	z-index: 499;
+	border-bottom: 0px;
+	font-size: 22px;
+}
+.navbar-header{
+	height: 80px;
+}
+.navbar-brand-min img{
+	margin: 15px 0 0 25px;
+}
+
+
+.navbar .navbar-nav > li > a{
+	color: #FCFAF2;
+}
+.navbar-nav li{
+	top: 0;
+	margin-right: 0;
+	text-align: left;
+}
+.navbar-nav .open .dropdown-menu{
+	width: 110px;
+	font-size: 18px;
+	background-color: rgba(169,169,169,0.5);
+	border: none;
+}
+.dropdown-menu{
+	min-width: 0;
+	margin-left: 8px;
+}
+.navbar-toggle{
+	margin: 25px 20px 0 0;
+	background-color: #F2F2F2;
+}
+.sr-only{
+	background-color: #DDDDDD;
+}
+.icon-bar{
+	background-color: #787878;
+}
+
+/*--------------------NAV 線條效果-------------------------*/
+.navbar-nav li a {
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+}
+.navbar-nav li a:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+.navbar-nav li a:hover:after {
+	width: 100%;
+	background: #C0A264;
+}
+/*----------------area------------------------*/
+.banner{
+	background: url(images/memberlist-banner.jpg) center;
+	background-size: cover;
+	height: 300px;
+	padding: 0;
+}
+
+.box {
+	height: 500px;
+	border: 2px solid #C0A264;
+	border-radius: 5px;
+	/*position: relative;*/
+}
+.area02{
+	margin-top: 100px;
+}
+.area02 ul{
+	padding: 0;
+}
+.area02 ul li {
+	background: #C0A264;
+	width: 120px;
+	height: 50px;
+	text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.area02 ul li:hover {
+	background: #D19826;
+}
+.area02 ul li a{
+	font-size: 22px;
+}
+
+/*-------------area border----------------*/
+
+.table{
+	width: 100%;
+　	overflow: hidden;	
+	text-align: center;
+	font-size: 18px;
+	border-radius: 5px;
+}
+table {
+	border: 2px solid #C0A264;
+	border-radius: 5px;
+}
+/*.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th{
+	border: 2px solid #C0A264;
+	border-radius: 5px;
+}*/
+
+
+/*--------------area03--------------*/
+.username{
+	font-size: 24px;
+	text-align: center;
+	margin-top: 50px;
+}
+.area03-from{
+	margin-top: 80px;
+}
+.area03-from .form-group {
+	text-align: center;
+}
+.area03-from .form-group .title{
+	color: #C0A264;
+	display: inline-block;
+	width: 50px;
+	font-size: 22px;
+}
+.form-control-static{
+	display: inline-block;
+	width: 300px;
+	font-size: 18px;
+	border: 1px solid #C0A264;
+	border-radius: 5px;
+}
+
+
+
+.area03 .area03-last button{
+	font-size: 18px;
+	text-decoration: none; 
+}
+/*-area03-last-min-*/
+.area03 .area03-last-min{
+	padding-left: 45px;
+}
+.area03 .area03-last-min button{
+	/*margin: 0 auto;*/
+	width: 350px;
+	font-size: 18px;
+	text-decoration: none; 
+
+}
+/*-area03-last-min-*/
+
+
+
+/*-------------area04----------------*/
+.area04 tbody{
+	border: 2px solid #C0A264;
+}
+.area04 table .product{
+	width: 55%;
+}
+.area04 table .product-price{
+	width: 15%;
+	padding-top: 12%;
+}
+.area04 table .product-change{
+	width: 30%;
+	padding-top: 10%;
+}
+.area04 table tr th {
+	text-align: center;
+	padding: 20px auto;
+	border-bottom: 2px solid #C0A264;
+	font-size: 22px;
+}
+.area04 table tr td {
+	text-align: center;
+}	
+table .product img{
+	float: left;
+}
+table .product-change div{
+	margin: 20px auto;
+}
+table .product p{
+	text-align: left;
+}
+
+
+#cart{
+	font-size: 22px; 	
+  	background:#C0A264 url('images/購物車-b.png') no-repeat 5px 8px;
+  	padding: 10px 5px 10px 40px;
+	border: 2px solid #C0A264;
+	border-radius: 5px;
+}
+#delete{
+	font-size: 22px; 	
+  	background: url('images/我的最愛-刪除.png') no-repeat 5px 8px;
+  	padding: 10px 5px 10px 40px;
+  	border: 2px solid #C0A264;
+  	border-radius: 5px;
+}
+/*--------變更明細-MIN-------*/
+#cart-min{
+	font-size: 22px; 	
+  	background:#C0A264 url('images/購物車-b.png') no-repeat 3px 8px;
+  	padding: 10px 3px 10px 40px;
+	border: 2px solid #C0A264;
+	border-radius: 5px;
+}
+#delete-min{
+	font-size: 22px; 	
+  	background: url('images/我的最愛-刪除.png') no-repeat 10px 8px;
+  	padding: 10px 3px 10px 40px;
+  	border: 2px solid #C0A264;
+  	border-radius: 5px;
+}
+
+/*----maybelike text size--------*/
+.title01{
+	height: 100px;
+	background: url(images/title01-memberlist.png)no-repeat center;
+}
+.size01{
+	font-size: 18px;
+	color:#1C1C1C;
+	text-align: center;
+}
+.size02{
+	font-size: 14px;
+	color:#1C1C1C;
+	text-align: center;
+}
+.maybe{
+	text-align: center;
+	margin-bottom: 30px;
+	padding: 0;
+}
+
+/*---------------area05--------------------*/
+
+.area05 .control-group {
+	text-align: right;
+	padding-left: 0;
+}
+.area05 table tbody tr{
+	border: 2px solid #C0A264;
+	font-size: 22px;
+}
+.area05 table .product-num{
+	width: 10%;
+	padding-top: 5%;
+}
+.area05 table .product{
+	width: 50%;
+	padding-top: 5%;
+}
+.area05 table .product-howmany{
+	width: 20%;
+	padding-top: 5%;
+}
+.area05 table .product-price{
+	width: 20%;
+	padding-top: 5%;
+}
+#calendar1{
+	width: 200px;
+	background: #E6E6E6 url(images/area05-icon.png) no-repeat 3px 3px;
+  	padding: 3px 3px 3px 80px;
+  	height: 40px;
+}
+/*--calendar1-min--*/
+.area05 .cal-min{
+	width: 100%;
+}
+.area05 .rwdul{
+	text-align: left;
+	padding-left: 0;
+	width: 100%;
+}
+.cal-min .rwdul li {
+	width: 100%;
+}
+#calendar1-min{
+	width: 100%;
+	background: #E6E6E6 url(images/area05-icon.png) no-repeat 3px 3px;
+  	padding: 3px 3px 3px 150px;
+  	height: 40px;
+}
+/*----*/
+
+
+.the-time span{
+	width: 100%;
+	padding-left: 0;
+}
+
+.the-time span div{
+	text-align: center;
+	font-size: 24px;
+}
+.the-time span{
+	width: 100%;
+	height: 40px;
+	margin:0;
+}
+.the-time .the-time-a{
+	width: 15%;
+	height: 40px;
+	margin:0;
+	display: inline-block;
+}
+.the-time .the-time-b{
+	width: 83%;
+	background-color: #F2F2F2;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	height: 40px;
+	font-size: 24px;
+	margin-left: 5px;
+	display: inline-block;
+}
+
+/*------------area05-min------------*/
+.the-time-min {
+	width: 100%;
+	padding-left: 0;
+}
+
+
+.the-time-min .the-time-a-min{
+	width: 100%;
+	height: 100%;
+	background-color: #F2F2F2;
+	border-radius: 5px;
+	font-size: 24px;
+	text-align: center;
+}
+.the-time-min .the-time-b-min{
+	width: 100%;
+	height: 100%;
+	background-color: #F2F2F2;
+	border-radius: 5px;
+	font-size: 24px;
+	text-align: center;
+}
+/*------------area05----------*/
+.area05 table{
+	margin-bottom: 0;
+}
+.area05 table tr th{
+	text-align: center;
+}
+.area05 table tr td p{
+	text-align: center;
+}
+.area05 table .product-num{
+	width: 10%;
+}
+.area05 table .product{
+	width: 60%;
+}
+.area05 table .product-howmany{
+	width: 10%;
+}
+.area05 table .product-price{
+	width: 20%;
+}
+
+.area05 .total{
+	width: 100%;
+	height: 20%;
+	background-color: #F2F2F2;
+	margin-top: 0;
+}
+.area05 .total p {
+	padding-left: 40px;
+	font-size: 18px;
+}
+
+
+
+

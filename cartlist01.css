@@ -1,0 +1,251 @@
+* {
+	font-family: 'cwTeXFangSong', 'Caudex';
+	text-decoration: none;
+	list-style-type: none;
+}
+
+
+/*--------------area border----------*/
+
+.table-bordered{
+	width: 100%;
+/*　	overflow: hidden;	*/
+	text-align: center;
+	font-size: 18px;
+	border-radius: 5px;
+}
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th{
+	border: 2px solid #C0A264;
+	border-radius: 5px;
+}
+
+/*---------area02-----------------*/
+.area02 ul{
+	width: 100%;
+	height: 50px;
+	margin-top: 100px;
+}
+.area02 ul li{
+	width: 122px;
+	height: 50px;
+}
+.area02 ul .scrollicon{
+	margin-left: 20px;
+	width: 50px;
+	height: 50px;
+}
+.area02 ul .endicon{
+	width: 50px;
+	height: 50px;
+}
+/*---area02-min---*/
+.area02-min{
+	padding: 0;
+}
+.area02-min ul{
+	width: 100%;
+	height: 30px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding-left: 5px;
+}
+.area02-min ul li{
+	text-align: center;
+	width: 105px;
+	height: 30px;
+}
+.area02-min ul .scrollicon{
+	margin-left: 3px;
+	margin-right: 3px;
+	width: 15px;
+	height: 15px;
+}
+.area02-min ul .endicon{
+	width: 30px;
+	height: 30px;
+}
+/*---*/
+
+
+
+/*--------------area03-------------*/
+
+.area03 {
+	margin-top: 30px;
+	padding: 0;
+}
+.area03 table tr th {
+	text-align: center;
+	width: 50px;
+	height: 50px;
+}
+.area03 table tr td {
+	margin: 0 auto;
+	width: 50px;
+	height: 50px;
+}
+table .radio{
+	height: 100%;
+	text-align: center;
+	margin:  auto;
+}
+.delete-icon{
+	text-align: center;
+}
+.delete-icon a {
+        background: url("images/delete-icon_03.png") no-repeat center;
+        display: block;
+        font-size: 0; 
+        height: 50px;
+        width: 50px;
+        margin-left: 9px;
+    }
+.delete-icon a:hover {
+        background: url("images/delete-icon_05.png")no-repeat center; 
+}
+table .product img{
+	float: left;
+}
+table .product p{
+	text-align: left;
+}
+table .product-num{
+	text-align: center;
+}
+#buy_num{
+	width: 40px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+
+
+/*--------------area04-------------*/
+.area04 {
+	background-color: #F2F2F2;
+	font-size: 22px;
+	height: 100px;
+	text-align: right;
+}
+
+.area04 p {
+	display: inline-block;
+	margin-top: 35px;
+}
+
+/*-----------area05---------*/
+.area05 {
+	height: 100px;
+}
+.area05 .next .area05-like{
+	width: 150px;
+	height: 50px;
+}
+.area05 .next p{
+	display: inline-block;
+	margin-top: 40px;
+	font-size: 18px;
+	text-align: center;
+}
+.area05 .next  a{
+	font-size: 18px;
+	display: inline-block;
+	width: 100px;
+}
+/*------area05-min-----*/
+.area05-min {
+ 	text-align: center;
+	height: 160px;
+}
+.area05-min .next p{
+	height: 45px;
+	width: 100%;
+	margin: 0;
+	padding-top: 13px;
+	font-size: 22px;
+	text-align: center;
+}
+.area05-min .next a {
+	width: 100%;
+	position: relative;
+	display: block;
+	padding: 10px 25px 10px 25px;
+	font-size: 22px;
+	margin-right: 15px;
+	color: #1C1C1C;
+}
+.area05-min .next .go-check{
+	border: 2px solid #C0A264;
+	border-radius: 4px;
+	margin-top: 10px;
+	background-color: #C0A264;
+}
+.area05-min .next .go-shop{
+/*	border: 2px solid #C0A264;
+	border-radius: 4px;*/
+}
+/*---*/
+
+/*-----------area06---------*/
+.area06{
+	background-color: #F2F2F2;
+	height: 20%;
+	margin-bottom: 30px;
+}
+.area06 .text-top {
+	margin-top: 10px;
+	font-size: 22px;
+}
+.area06 .text-left{
+	margin-left: 10%;
+	font-size: 18px;
+}
+/*---area06-min-----*/
+.area06-min{
+	background-color: #F2F2F2;
+	height: 22%;
+}
+.area06-min .text-top {
+	text-align: left;
+	margin-top: 10px;
+	font-size: 18px;
+}
+.area06-min .text-left{
+	font-size: 18px;
+}
+
+
+/*-----------footer------------*/
+footer{
+	background:url(images/footer_bg.jpg);
+}
+footer a{
+	color: #FCFAF2;
+}
+footer a:hover ,a:focus{
+	color: rgba(252,250,242,0.5);
+	text-decoration: none;
+}
+.foot-word{
+	text-align: center;
+}
+.size1{
+	font-size: 22px;
+	padding-top: 20px;
+}
+.asd{
+	text-align: left;
+}
+.size2{
+	font-size: 18px;
+}
+.iconconect{
+	text-align: center;
+	padding-left: 40px;
+}
+.footban{
+	padding-top: 40px;
+}
+
+
+

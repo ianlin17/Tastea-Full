@@ -1,0 +1,32 @@
+﻿
+/*-----------footer------------*/
+footer{
+	background:url(images/footer_bg.jpg);
+}
+footer a{
+	color: #FCFAF2;
+}
+footer a:hover ,a:focus{
+	color: rgba(252,250,242,0.5);
+	text-decoration: none;
+}
+.foot-word{
+	text-align: justify;
+}
+.size1{
+	font-size: 22px;
+	padding-top: 20px;
+}
+.asd{
+	text-align: left;
+}
+.size2{
+	font-size: 18px;
+}
+.iconconect{
+	text-align: center;
+	margin: 0 auto;
+}
+.footban{
+	padding-top: 40px;
+}

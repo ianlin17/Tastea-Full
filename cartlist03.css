@@ -1,0 +1,303 @@
+* {
+	font-family: 'cwTeXFangSong', 'Caudex';
+	text-decoration: none;
+	list-style-type: none;
+}
+h3 {
+	text-align: center;
+}
+ul,li{
+	display: inline-block;
+	list-style-type: none;
+	text-decoration: none;
+}
+a {
+	color: #1C1C1C;
+	font-size: 100%;
+}
+a:hover ,a:focus{
+	color: rgba(28,28,28,0.7);
+	text-decoration: none;
+}
+
+.banner{
+	background: url(images/cartlist-banner.png) center;
+	background-size: cover;
+	height: 300px;
+	padding: 0;
+}
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse{
+	height: 120px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	height: 300px;
+	text-align: right;
+	overflow-y:hidden;
+}
+.navbar-default .navbar-nav > li > a{
+	color: #FCFAF2;
+}
+
+.navbar{
+	width: 100%;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+	z-index: 499;
+ 	background: rgba(0, 0, 0,0.0);
+ 	border-bottom: 0;
+ 	font-size: 22px;
+}
+.navbar-nav li{
+	top: 25px;
+	margin-right: 20px;
+}
+
+/*--------------------NAV 線條效果-------------------------*/
+.navbar-nav li a {
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+}
+.navbar-nav li a:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+.navbar-nav li a:hover:after {
+	width: 100%;
+	background: #C0A264;
+}
+
+/*--------------area border----------*/
+
+.table-bordered{
+	width: 100%;
+/*　	overflow: hidden;	*/
+	text-align: center;
+	font-size: 18px;
+	border-radius: 5px;
+}
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th{
+	border: 2px solid #C0A264;
+	border-radius: 5px;
+}
+/*-----------title-min-------------*/
+.title-min {
+	margin: 20px 0 0 0;
+}
+/*------------area02----------------*/
+.area02 ul{
+	width: 100%;
+	height: 50px;
+	margin-top: 100px;
+}
+.area02 ul li{
+	width: 122px;
+	height: 50px;
+}
+.area02 ul .scrollicon{
+	margin-left: 20px;
+	width: 50px;
+	height: 50px;
+}
+.area02 ul .endicon{
+	width: 50px;
+	height: 50px;
+}
+/*---area02-min---*/
+.area02-min{
+	padding: 0;
+}
+.area02-min ul{
+	width: 100%;
+	height: 30px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding-left: 5px;
+}
+.area02-min ul li{
+	text-align: center;
+	width: 105px;
+	height: 30px;
+}
+.area02-min ul .scrollicon{
+	margin-left: 3px;
+	margin-right: 3px;
+	width: 15px;
+	height: 15px;
+}
+.area02-min ul .endicon{
+	width: 30px;
+	height: 30px;
+}
+/*---*/
+
+/*--------------area03-------------*/
+
+.area03 {
+	/*margin-top: 30px;*/
+	padding: 0;
+}
+.area03 .title{
+	margin: 50px auto 10px auto;
+}
+.area03 table tr th {
+	text-align: center;
+	width: 50px;
+	height: 50px;
+}
+table .product{
+	width: 70%;
+}
+table .product-price{
+	width: 10%;
+}
+table .product-num{
+	width: 10%;
+}
+table .product-total{
+	width: 10%;
+}
+
+
+table .product p{
+	text-align: center;
+	display: inline-block;
+}
+table .product-num{
+	text-align: center;
+}
+#buy_num{
+	width: 40px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+/*--------------area04-------------*/
+.area04 {
+	background-color: #F2F2F2;
+	font-size: 22px;
+	height: 100px;
+	text-align: right;
+}
+
+.area04 p {
+	display: inline-block;
+	margin-top: 35px;
+}
+
+/*-------------area05-------------*/
+.area05{
+	padding: 0;
+}
+.area05 .title{
+	margin: 50px auto 10px auto;
+}
+table .infro-title{
+	width: 30%;
+	height: 40px;
+}
+table .infro-content{
+	width: 70%;
+	height: 40px;
+}
+/*--------------area06------------*/
+.area06{
+	padding: 0;
+}
+.area06 .up{
+	margin-right: 15px;
+}
+.area06 .next {
+	margin: 50px auto 50px auto;
+}
+/*------area06-min-----*/
+.area06-min {
+ 	text-align: center;
+	height: 140px;
+}
+.area06-min .next a {
+	width: 100%;
+	position: relative;
+	display: block;
+	padding: 10px 25px 10px 25px;
+	font-size: 22px;
+	margin-right: 15px;
+	color: #1C1C1C;
+}
+.area06-min .next .go-check{
+	border: 2px solid #C0A264;
+	border-radius: 4px;
+	margin-top: 10px;
+	background-color: #C0A264;
+}
+.area06-min .next .go-shop{
+	margin-top: 5px;
+	border: 2px solid #C0A264;
+	border-radius: 4px;
+}
+/*---*/
+
+/*-----------footer------------*/
+footer{
+	background:url(images/footer_bg.jpg);
+}
+footer a{
+	color: #FCFAF2;
+}
+footer a:hover ,a:focus{
+	color: rgba(252,250,242,0.5);
+	text-decoration: none;
+}
+.foot-word{
+	text-align: center;
+}
+.size1{
+	font-size: 22px;
+	padding-top: 20px;
+}
+.asd{
+	text-align: left;
+}
+.size2{
+	font-size: 18px;
+}
+.iconconect{
+	text-align: center;
+	padding-left: 40px;
+}
+.footban{
+	padding-top: 40px;
+}
+
+/*--------------完成訂購---------------*/
+.check-img{
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	color: #C0A264;
+	font-size: 32px;
+}
+.check-word{
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 30px;
+	color: #C0A264;
+	font-size: 32px;
+}
+
+.click-div{
+	margin-top: 50px;
+	text-align: center;
+}
+.click-ul{
+	padding-left: 0;
+}
+.click-a{
+	margin-right: 10px;
+}
